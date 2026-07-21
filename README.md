@@ -1,56 +1,136 @@
-# 📊 Retail Sales Dashboard
+# 🛍️ Retail Sales Dashboard
 
-An end-to-end Business Intelligence project analyzing retail sales data using **Excel**, **SQL (DuckDB)**, and **GitHub**.
+An end-to-end Business Intelligence project analyzing retail sales using **Excel, SQL (DuckDB), and Power BI**.
 
 ---
 
 ## 📌 Project Overview
 
-This project demonstrates the complete Business Intelligence workflow—from data preparation and SQL analysis to dashboard creation and business reporting.
+This project demonstrates the complete Business Intelligence workflow:
 
-The goal is to transform raw retail sales data into meaningful insights that support better business decisions.
+- Data Cleaning
+- Business Metric Calculation
+- SQL Analysis
+- Excel Dashboard
+- Power BI Dashboard (Coming Soon)
+- Business Insights
+- Executive Reporting
 
 ---
 
 ## 🎯 Business Problem
 
-Business managers need an interactive dashboard to answer important questions such as:
+A retail company wants to monitor its sales performance and answer questions such as:
 
 - Which products generate the most revenue?
-- Which product categories are most profitable?
-- Which states contribute the highest sales?
+- Which states perform best?
+- What are the monthly sales trends?
 - Who are the top customers?
-- How do sales change over time?
-
-This dashboard helps answer these questions through data visualization and KPI reporting.
+- Which product categories are most profitable?
 
 ---
 
-## 🛠️ Tools Used
+## 🛠 Tools Used
 
 - Microsoft Excel
-- SQL (DuckDB)
+- DuckDB SQL
+- Power BI (In Progress)
 - GitHub
-- Kaggle
 
 ---
 
-## 📂 Dataset
+## 📂 Repository Structure
+
+```
+Retail-Sales-Dashboard/
+
+├── data/
+│   ├── Orders.csv
+│   └── Details.csv
+│
+├── excel/
+│   └── Retails_Dashboard.xlsx
+│
+├── images/
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 📊 Dashboard Features
+
+The Excel dashboard includes:
+
+- Total Revenue KPI
+- Total Profit KPI
+- Total Orders KPI
+- Total Customers KPI
+- Monthly Revenue Trend
+- Profit by Category
+- Revenue by State
+- Top 10 Customers
+- Top 10 Products
+- Interactive Slicers
+
+---
+
+## 📈 Key Business Metrics
+
+- Total Revenue
+- Total Profit
+- Average Order Value
+- Profit Margin
+- Customer Count
+- Order Count
+
+---
+
+## 🗄 SQL Analysis
+
+Business analysis was performed in DuckDB using SQL.
+
+Examples include:
+
+- Monthly Revenue
+- Monthly Profit
+- Top Customers
+- Top Products
+- Revenue by State
+- Profit by Category
+
+**Kaggle Notebook**
+
+https://www.kaggle.com/code/ugwuonudennis/sql-business-analytics-project
+
+---
+
+## 📁 Dataset
 
 The project uses two datasets:
 
 - Orders.csv
 - Details.csv
 
-The datasets include information such as:
+located inside the **data/** folder.
 
-- Order ID
-- Order Date
-- Customer Name
-- State
-- Category
-- Sub-Category
-- Revenue (Amount)
-- Profit
-- Quantity
-- Payment Mode
+---
+
+## 🚀 Project Status
+
+✅ SQL Analysis Complete
+
+✅ Excel Dashboard Complete
+
+🟡 Power BI Dashboard (Coming Next)
+
+---
+
+## 👤 Author
+
+**Dennis Ugwuonu**
+
+B.Sc. Mathematics
+
+Aspiring Business Intelligence & Data Analytics Professional
